@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/CamilaChica/FriendFinder/issues"
   },
-  "homepage": "https://github.com/CamilaChica/FriendFinder#readme"
+  "homepage": "https://github.com/CamilaChica/FriendFinder#readme",
+  "dependencies": {
+    "epress": "0.0.1-security",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
 }
