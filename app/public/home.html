@@ -1,157 +1,33 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <title>Buy a Friend</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Sigmar+One" rel="stylesheet">
+    <link href="./css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
 
-    <title>RentaFriend</title>
-  </head>
-  
-  <body>
-        <header>
-         <h1>Rent a Friend</h1>
-          <div class="col-3">   
-            <div class="links">
-             <a href="../public/survey.html">Survey   </a> <a class="portfolio1" href="../data/friends.js">Friends List API   </a> <a href="https://github.com/CamilaChica">Profile</a>
-            </div>
-          </div>
+<body>
+    <header>
+        <img src='../../assets/images/background1.jpg' alt='headerImg' width='100%'>
+    </header>
+    <div class='container'>
+     <!--    <button class='btn btn-primary' id='startBtn'>Start</button> -->
+        <div class="links">
+            <a href="/survey">Survey   </a> <a class="portfolio1" href="/api/friends">Friends List API   </a> <a href="https://github.com/CamilaChica">Profile</a>
+           </div>
+
+           <header>
+            
         </header>
-<main>
-        <container>
-<!-- Questions -->
-<div class="input-field col s12">
-<h4>I make friends easily</h4>
-<select id="questioin1">
-    <option value=""disabled selected>Choose your option</option>
-    <option value="1">1 (Strongly disagree)</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4">4</option>
-    <option value="5">5 (Strongly agree)</option>
-</select>
-</div>
+        <!-- Question page -->
 
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
 
-<div class="input-field col s12">
-        <h4>I love to work out</h4>
-        <select id="questioin2">
-            <option value=""disabled selected>Choose your option</option>
-            <option value="1">1 (Strongly disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly agree)</option>
-        </select>
-</div>
-
-<div class="input-field col s12">
-        <h4>I like to spend time with my family and relatives</h4>
-        <select id="questioin3">
-            <option value=""disabled selected>Choose your option</option>
-            <option value="1">1 (Strongly disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly agree)</option>
-        </select>
-</div>
-
-<div class="input-field col s12">
-        <h4>I love large parties</h4>
-        <select id="questioin4">
-            <option value=""disabled selected>Choose your option</option>
-            <option value="1">1 (Strongly disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly agree)</option>
-        </select>
-</div>
-
-<div class="input-field col s12">
-        <h4>I believe in the importance of art</h4>
-        <select id="questioin5">
-            <option value=""disabled selected>Choose your option</option>
-            <option value="1">1 (Strongly disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly agree)</option>
-        </select>
-</div>
-
-<div class="input-field col s12">
-        <h4>I enjoy outdoors activities</h4>
-        <select id="questioin6">
-            <option value=""disabled selected>Choose your option</option>
-            <option value="1">1 (Strongly disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly agree)</option>
-        </select>
-</div>
-
-<div class="input-field col s12">
-        <h4>when I work very hard in my job, I forget about the others</h4>
-        <select id="questioin7">
-            <option value=""disabled selected>Choose your option</option>
-            <option value="1">1 (Strongly disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly agree)</option>
-        </select>
-</div>
-
-<div class="input-field col s12">
-        <h4>I experience my emotions intensely</h4>
-        <select id="questioin8">
-            <option value=""disabled selected>Choose your option</option>
-            <option value="1">1 (Strongly disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly agree)</option>
-        </select>
-</div>
-
-<div class="input-field col s12">
-        <h4>I prefer variety to routine</h4>
-        <select id="questioin9">
-            <option value=""disabled selected>Choose your option</option>
-            <option value="1">1 (Strongly disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly agree)</option>
-        </select>
-</div>
-
-<div class="input-field col s12">
-        <h4>I dislike being the center of attention</h4>
-        <select id="questioin10">
-            <option value=""disabled selected>Choose your option</option>
-            <option value="1">1 (Strongly disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly agree)</option>
-        </select>
-</div>
-
-<button id="submitButton" class="btn btn-primary" type="submit">Submit</button>
-        </container>
-</main>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
 </html>
