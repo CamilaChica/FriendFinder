@@ -188,3 +188,8 @@ One More Thing
 
 If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
 
+![alt text](assets/images/readme1.jpg)
+
+![alt text](assets/images/readme2.jpg)
+
+![alt text](assets/images/readme3.jpg)
