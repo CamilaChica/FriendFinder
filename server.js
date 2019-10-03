@@ -7,6 +7,8 @@ var path = require('path');
 var app = express();
 var PORT = process.env.PORT || 3030;
 
+/* something */
+
 // Expose the public directory to access CSS files
 app.use(express.static(path.join(__dirname, './app/public')));
 
